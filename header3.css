@@ -1,0 +1,234 @@
+.header1{
+  display: flex;
+  gap: 120px;
+  background-color:rgb(119, 2, 2);
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  display:flex;
+  gap: 30px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.title{
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(238, 255, 138);
+  cursor: pointer;
+}
+.icon{
+  display:flex;
+  gap: 30px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.header2{
+  display: flex;
+  gap: 160px;
+  background-color:rgb(200, 208, 253);
+  margin: 0px 30px;
+  padding: 0px 10px;
+  height: 50px;
+  align-items: center;
+}
+.maths{
+  position: relative;
+  font-family: fantasy;
+  font-size: larger;
+  color: crimson;
+  
+}
+.content{
+  position: absolute;
+  color: brown;
+  background-color: rgb(255, 246, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:medium;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  border: 1px solid black;
+  box-shadow: 1px;
+  top: 20px;
+
+}
+li{
+  cursor: pointer;
+  list-style: none;
+}
+.maths:hover .content{
+  display: block;
+
+}
+.content li{
+  border-bottom: 1px solid black;
+}
+
+.content li:hover{
+  background-color: azure;
+  color: black;
+}
+
+.science{
+  position: relative;
+  font-family: fantasy;
+  font-size: larger;
+  color: crimson;
+  
+}
+.content1{
+  position: absolute;
+  color: brown;
+  background-color: rgb(255, 246, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:medium;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  border: 1px solid black;
+  box-shadow: 1px;
+  top: 20px;
+
+}
+li{
+  cursor: pointer;
+  list-style: none;
+}
+.science:hover .content1{
+  display: block;
+
+}
+.content1 li{
+  border-bottom: 1px solid black;
+}
+
+.content1 li:hover{
+  background-color: azure;
+  color: black;
+}
+
+.english{
+  position: relative;
+  font-family: fantasy;
+  font-size: larger;
+  color: crimson;
+  
+}
+.content2{
+  position: absolute;
+  color: brown;
+  background-color: rgb(255, 246, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:medium;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  border: 1px solid black;
+  box-shadow: 1px;
+  top: 20px;
+
+}
+li{
+  cursor: pointer;
+  list-style: none;
+}
+.english:hover .content2{
+  display: block;
+
+}
+.content2 li{
+  border-bottom: 1px solid black;
+}
+
+.content2 li:hover{
+  background-color: azure;
+  color: black;
+}
+.ss{
+  position: relative;
+  font-family: fantasy;
+  font-size: larger;
+  color: crimson;
+  
+}
+.content3{
+  position: absolute;
+  color: brown;
+  background-color: rgb(255, 246, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:medium;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  border: 1px solid black;
+  box-shadow: 1px;
+  top: 20px;
+
+}
+li{
+  cursor: pointer;
+  list-style: none;
+}
+.ss:hover .content3{
+  display: block;
+
+}
+.content3 li{
+  border-bottom: 1px solid black;
+}
+
+.content3 li:hover{
+  background-color: azure;
+  color: black;
+}
+
+.hindi{
+  position: relative;
+  font-family: fantasy;
+  font-size: larger;
+  color: crimson;
+  
+}
+.content4{
+  position: absolute;
+  color: brown;
+  background-color: rgb(255, 246, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:medium;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  border: 1px solid black;
+  box-shadow: 1px;
+  top: 20px;
+
+}
+li{
+  cursor: pointer;
+  list-style: none;
+}
+.hindi:hover .content4{
+  display: block;
+
+}
+.content4 li{
+  border-bottom: 1px solid black;
+}
+
+.content4 li:hover{
+  background-color: azure;
+  color: black;
+}
